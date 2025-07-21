@@ -1,0 +1,37 @@
+/* .education {
+    display: block;
+} */
+
+.parent {
+	height: 30px;
+    width: 500px;
+    /* background-color: Cornsilk; */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.view {
+  display:block;
+}
+
+form {
+  display:none;
+}
+
+label, .bold {
+    font-weight: 600;
+    color: rgb(54, 54, 54);
+}
+  
+.parent:hover .edit {
+  display: block;
+} 
+
+.parent:hover .edit.textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.parent:hover .view  {
+  display: none;
+}
