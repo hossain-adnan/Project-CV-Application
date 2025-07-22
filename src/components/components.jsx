@@ -2,7 +2,7 @@ import { useState } from 'react'
 import '../styles/components.css'
 
 function Name() {
-  const [name, setName] = useState('Joe Rogan')
+  const [name, setName] = useState('Your Name')
 
   return (
     <div className='parent'>
@@ -19,7 +19,7 @@ function Name() {
 }
 
 function Email() {
-  const [state, setState] = useState('joerogan@hotmail.com')
+  const [state, setState] = useState('yourmail@domain.com')
 
   return (
     <div className='parent'>
@@ -37,7 +37,7 @@ function Email() {
 
 function Education() {
   const [state, setState] = useState(
-    `Masters in MMA, University of Tokyo`
+    `Your Degree, University of Your Choice`
   )
 
   return (
@@ -56,7 +56,7 @@ function Education() {
 
 function Experience() {
   const [state, setState] = useState(
-    `Podcaster at JoeRogan Experience`
+    `Your work at Your Company`
   )
 
   return (
