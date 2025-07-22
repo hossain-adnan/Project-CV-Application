@@ -11,6 +11,8 @@
   max-width: 600px;
   padding: 10px;
   padding-left: 15px;
+
+  overflow-wrap: anywhere;
 }
 
 .section {
