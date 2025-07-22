@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5rem;
+  text-align: left;
+}
+
+.cvContainer {
+  border: 1px solid gray;
+  border-radius: 3px;
+  max-width: 600px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 0;
+  color: rgb(54, 54, 54);
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+@media print {
+  body * {
+    /* display: none; */
+    visibility: hidden;
+  }
+
+  .cvContainer, .cvContainer * {
+    visibility: visible;
+    /* display: block; */
+  }
+
+  button {
+    display: none;
+  }
+}

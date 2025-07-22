@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './components.css'
+import '../styles/components.css'
 
 function Name() {
   const [name, setName] = useState('Joe Rogan')
@@ -9,7 +9,7 @@ function Name() {
   	<form className ='edit' onSubmit={(e) => e.preventDefault()}>
     	<label> Name: </label>
         <input
-          type='text' placeholder={name} 
+          type='text' placeholder={name}
           onChange={(e) => setName(e.target.value)} 
         />
     </form>
@@ -62,7 +62,7 @@ function Experience() {
   return (
     <div className='parent'>
   	<form className ='edit textarea' onSubmit={(e) => e.preventDefault()}>
-    	<label> Education: </label>
+    	<label> Experience: </label>
         <textarea
           placeholder={state} 
           onChange={(e) => setState(e.target.value)} 

@@ -3,11 +3,11 @@
 } */
 
 .parent {
-	height: 30px;
-    width: 500px;
-    /* background-color: Cornsilk; */
-    padding: 5px;
-    box-sizing: border-box;
+	height: auto;
+  width: 500px;
+  /* background-color: Cornsilk; */
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .view {
